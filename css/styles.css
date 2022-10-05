@@ -1,0 +1,349 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    margin: 0;
+}
+
+.block-1{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.right-half{
+    flex-grow: 1;
+
+    display: flex;
+    flex-direction: column;
+
+    margin: 0px 60px auto 100px;
+}
+
+.header-title{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    margin-top: 50px 0px 0px 0px;
+}
+
+.main-image{
+    height: 100vh;
+    width: auto;
+}
+
+h1{
+    font-size: 68px;
+    font-weight: 500;
+    color: #156963;
+
+    margin: 50px 0px 30px 0px;
+}
+
+.regular-text{
+    font-size: 18px;
+    font-weight: 400;
+    text-justify: auto;
+}
+
+.header-buttons{
+    height: 40px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+    font-size: 14px;
+    font-weight: 600;
+
+    margin: 60px;
+}
+
+.header-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-icons{
+    width: 80px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.sign-up-button{
+    width: 110px;
+
+    color: #156963;
+}
+
+.sign-in-button{
+    width: 110px;
+
+    color: white;
+    background-color: #156963;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 60px 0px 60px;
+}
+
+.features{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    flex-wrap: wrap;
+
+    margin: 150px 0px 40px 0px;
+}
+
+.feature{
+    width: 270px;
+    height: 155px;
+
+    border: 1px solid #E0E0E0;
+}
+
+.feature-header{
+    display: flex;
+    justify-content: flex-start;
+
+    margin: 20px;
+}
+
+.feature-title{
+    font-size: 16px;
+    font-weight: 700;
+    color: #156963;
+
+    margin: 0px 0px 0px 20px;
+}
+
+.feature-text{
+    font-size: 10px;
+
+    margin: 0px 20px 0px 20px;
+}
+
+h2{
+    height: 40px;
+
+    font-size: 20px;
+    font-weight: 500;
+
+    display: flex;
+    justify-content: center;
+
+    border-bottom: 1px solid #E0E0E0;
+
+    margin: 0px 0px 40px 0px;
+}
+
+.featured-plants{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin: 40px 0px 75px 0px;
+}
+
+.plants{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    flex-wrap: wrap;
+}
+
+.plant{
+    width: 217px;
+    height: 290px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.featured-plant-name{
+    font-size: 16px;
+
+    display: flex;
+    justify-content: center;
+
+    margin: 10px 0px 0px 0px;
+}
+
+.featured-plant-price{
+    font-size: 16px;
+    font-weight: 700;
+
+    display: flex;
+    justify-content: center;
+
+    margin: 10px 0px 0px 0px;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 0px 75px 0px;
+}
+
+.information{
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+h3{
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0px 0px 20px 0px;
+}
+
+.small-image{
+    min-height: 200px;
+    background-color: darkcyan;
+}
+
+.big-image{
+    min-height: 400px;
+    min-width: 50%;
+    background-color: cornflowerblue;
+    flex-grow: 1;
+}
+
+.buy-block{
+    height: 360px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    background-color: #F3F4F6;
+
+    margin: 0px 0px 75px 0px;
+}
+
+.buy-block-header{
+    display: flex;
+    flex-direction: column;
+
+    margin: 100px 0px 0px 100px;
+}
+
+h4{
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.shop-button{
+    width: 150px;
+    height: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #156963;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+
+    margin-top: 40px;
+}
+
+footer{
+    height: 270px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    border-top: 1px solid #E0E0E0;
+
+    padding: 40px 160px 0px 160px;
+}
+
+h5{
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #156963;
+
+    margin: 0px 0px 20px 0px;
+}
+
+.footer-block-title{
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin: 0px 0px 10px 0px;
+}
+
+.footer-block-text{
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.footer-block-subtitle{
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+
+    margin: 0px 0px 10px 0px;
+}
+
+.email-input{
+    width: 235px;
+    height: 30px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #E0E0E0;
+
+    border: 1px solid #F2F2F2;
+}
+
+.submit-button{
+    width: 50px;
+    height: 20px;
+
+    margin: 10px 0px 0px 0px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 8px;
+    font-weight: 600;
+    color: white;
+
+    background-color: #156963;
+    border-radius: 2px;
+}
+
+.footer-column{
+    max-width: 300px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
