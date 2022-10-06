@@ -9,6 +9,8 @@ p{
 }
 
 .block-1{
+    height: 100vh;
+    
     display: flex;
     justify-content: flex-start;
 }
@@ -32,6 +34,10 @@ p{
 .main-image{
     height: 100vh;
     width: auto;
+}
+
+.main-image-container{
+    width: 60vw;
 }
 
 h1{
@@ -208,6 +214,8 @@ h2{
     flex-direction: column;
     justify-content: space-between;
     flex-grow: 1;
+
+    margin-right: 50px;
 }
 
 h3{
@@ -216,21 +224,11 @@ h3{
     margin: 0px 0px 20px 0px;
 }
 
-.small-image{
-    min-height: 200px;
-    background-color: darkcyan;
-}
-
-.big-image{
-    min-height: 400px;
-    min-width: 50%;
-    background-color: cornflowerblue;
-    flex-grow: 1;
+.image-crop{
+    overflow: hidden;
 }
 
 .buy-block{
-    height: 360px;
-
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -267,6 +265,7 @@ h4{
     color: white;
 
     margin-top: 40px;
+    margin-bottom: 50px;
 }
 
 footer{
@@ -275,6 +274,7 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
 
     border-top: 1px solid #E0E0E0;
 
@@ -346,4 +346,16 @@ h5{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+}
+
+@media only screen and (max-width: 1175px) {
+    .right-side-image{
+        display: none;
+    }
+    .buy-block-header{
+        margin-right: 100px;
+    }
+    .main-image{
+        margin-left: -80px;
+    }
 }
