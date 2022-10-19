@@ -12,12 +12,11 @@ p{
     height: 100vh;
     
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
 }
 
 .right-half{
     flex-grow: 1;
-
     display: flex;
     flex-direction: column;
 
@@ -37,7 +36,7 @@ p{
 }
 
 .main-image-container{
-    width: 60vw;
+    width: 120vh;
 }
 
 h1{
@@ -51,6 +50,8 @@ h1{
 .regular-text{
     font-size: 18px;
     font-weight: 400;
+
+    text-align: justify;
     text-justify: auto;
 }
 
@@ -81,12 +82,14 @@ h1{
 }
 
 .sign-up-button{
+    height: 40px;
     width: 110px;
 
     color: #156963;
 }
 
 .sign-in-button{
+    height: 40px;
     width: 110px;
 
     color: white;
@@ -118,7 +121,8 @@ main{
 
 .feature{
     width: 270px;
-    height: 155px;
+
+    margin: 15px;
 
     border: 1px solid #E0E0E0;
 }
@@ -141,7 +145,7 @@ main{
 .feature-text{
     font-size: 10px;
 
-    margin: 0px 20px 0px 20px;
+    margin: 0px 20px 25px 20px;
 }
 
 h2{
@@ -177,9 +181,12 @@ h2{
 .plant{
     width: 217px;
     height: 290px;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    margin: 15px;
 }
 
 .featured-plant-name{
@@ -216,6 +223,14 @@ h2{
     flex-grow: 1;
 
     margin-right: 50px;
+}
+
+.under-text-image{
+    margin-top: 30px;
+}
+
+.right-side-image-1{
+    height: max-content;
 }
 
 h3{
@@ -269,16 +284,15 @@ h4{
 }
 
 footer{
-    height: 270px;
-
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
     flex-wrap: wrap;
 
     border-top: 1px solid #E0E0E0;
 
-    padding: 40px 160px 0px 160px;
+    padding: 40px 160px 60px 160px;
 }
 
 h5{
@@ -346,16 +360,95 @@ h5{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+
+    margin: 15px;
+}
+
+@media only screen and (max-width: 200vh) {
+    .main-image{
+        margin-left: -15vh;
+    }
+}
+
+@media only screen and (max-width: 150vh) {
+    .main-image{
+        margin-left: -20vh;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .right-side-image-1{
+        display: none;
+    }
+    .information{
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 724px) {
+    .features{
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 614px) {
+    .plants{
+        justify-content: center;
+    }
 }
 
 @media only screen and (max-width: 1175px) {
-    .right-side-image{
+    .right-side-image-2{
         display: none;
     }
     .buy-block-header{
-        margin-right: 100px;
+        margin: 50px 50px 0px 50px;
     }
-    .main-image{
-        margin-left: -80px;
+}
+
+@media only screen and (max-width: 920px) {
+    footer{
+        padding: 40px 60px 60px 60px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    h1{
+        font-size: 45px;
+    }
+    h3{
+        font-size: 30px;
+    }
+    h4{
+        font-size: 30px;
+    }
+    .regular-text{
+        font-size: 14px;
+    }
+    .right-half{
+        margin-left: 60px;
+    }
+    .header-buttons{
+        margin-right: 0px;
+        margin-left: 0px;
+
+        flex-wrap: wrap;
+    }
+    .sign-up-button{
+        order: 1;
+    }
+    .sign-in-button{
+        order: 2;
+    }
+    .header-icons{
+        order: 3;
+
+        margin-top: 20px;
+    }
+    .buy-block-header{
+        margin: 25px 25px 0px 25px;
+    }
+    .email-input{
+        width: 150px;
     }
 }
