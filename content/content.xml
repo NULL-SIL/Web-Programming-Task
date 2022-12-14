@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plants count='5'>
+<plant id='0'>
+    <name>Kaktus plants</name>
+    <price>IDR 85.000</price>
+    <img>content/images/0.png</img>
+</plant>
+<plant id='1'>
+    <name>Landak Plants</name>
+    <price>IDR 105.000</price>
+    <img>content/images/1.png</img>
+</plant>
+<plant id='2'>
+    <name>Kecubung Plants</name>
+    <price>IDR 85.000</price>
+    <img>content/images/2.png</img>
+</plant>
+<plant id='3'>
+    <name>Kecubung Plants</name>
+    <price>IDR 85.000</price>
+    <img>content/images/3.png</img>
+</plant>
+<plant id='4'>
+    <name>Kecubung Plants</name>
+    <price>IDR 85.000</price>
+    <img>content/images/4.png</img>
+</plant>
+</plants>
